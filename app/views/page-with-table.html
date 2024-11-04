@@ -1,0 +1,98 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="Page with table" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">
+        Tasks page
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet purus mollis, mattis enim quis, lobortis mauris. Vivamus nec dui maximus, luctus est et, auctor lacus. Ut a vehicula velit, sit amet malesuada arcu. Integer varius justo in tristique pulvinar. In eu turpis eros. Curabitur convallis egestas lacus, ut blandit eros eleifend ut. Vestibulum et tellus massa. Mauris lorem erat, maximus non orci quis, consectetur commodo risus. In in sem ut nulla tincidunt dignissim eget eget leo. Sed eget enim sit amet est sollicitudin volutpat. Nullam id malesuada lacus. Nam vitae sapien consequat, porttitor velit sed, cursus sem. Sed euismod turpis lacinia lacus ultricies eleifend. Maecenas fringilla velit egestas egestas rhoncus. Integer ornare nibh tempus ipsum dignissim, vel venenatis justo eleifend. Nullam dictum aliquet dignissim. Sed at porta ante. Suspendisse sed imperdiet purus. Aliquam sed porta justo. Quisque quis porta purus. Ut tincidunt interdum interdum. In aliquet non ipsum vel luctus.
+      </p>
+
+    <div class="govuk-tabs" data-module="govuk-tabs">
+        <h2 class="govuk-tabs__title">
+          Contents
+        </h2>
+        <ul class="govuk-tabs__list">
+          <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+            <a class="govuk-tabs__tab" href="#upcoming">
+              Upcoming
+            </a>
+          </li>
+          <li class="govuk-tabs__list-item">
+            <a class="govuk-tabs__tab" href="#previous">
+              Previous
+            </a>
+          </li>
+        </ul>
+        <div class="govuk-tabs__panel" id="upcoming">
+          <h2 class="govuk-heading-l">Upcoming</h2>
+          <table class="govuk-table">
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Case manager</th>
+                <th scope="col" class="govuk-table__header">Cases opened</th>
+                <th scope="col" class="govuk-table__header">Cases closed</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell">David Francis</td>
+                <td class="govuk-table__cell">3</td>
+                <td class="govuk-table__cell">0</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell">Paul Farmer</td>
+                <td class="govuk-table__cell">1</td>
+                <td class="govuk-table__cell">0</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell">Rita Patel</td>
+                <td class="govuk-table__cell">2</td>
+                <td class="govuk-table__cell">0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="previous">
+          <h2 class="govuk-heading-l">previous</h2>
+          <table class="govuk-table">
+            <thead class="govuk-table__head">
+              <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Case manager</th>
+                <th scope="col" class="govuk-table__header">Cases opened</th>
+                <th scope="col" class="govuk-table__header">Cases closed</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell">David Francis</td>
+                <td class="govuk-table__cell">24</td>
+                <td class="govuk-table__cell">18</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell">Paul Farmer</td>
+                <td class="govuk-table__cell">16</td>
+                <td class="govuk-table__cell">20</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <td class="govuk-table__cell">Rita Patel</td>
+                <td class="govuk-table__cell">24</td>
+                <td class="govuk-table__cell">27</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet purus mollis, mattis enim quis, lobortis mauris. Vivamus nec dui maximus, luctus est et, auctor lacus. Ut a vehicula velit, sit amet malesuada arcu. Integer varius justo in tristique pulvinar. In eu turpis eros. Curabitur convallis egestas lacus, ut blandit eros eleifend ut. Vestibulum et tellus massa. Mauris lorem erat, maximus non orci quis, consectetur commodo risus. In in sem ut nulla tincidunt dignissim eget eget leo. Sed eget enim sit amet est sollicitudin volutpat. Nullam id malesuada lacus. Nam vitae sapien consequat, porttitor velit sed, cursus sem. Sed euismod turpis lacinia lacus ultricies eleifend. Maecenas fringilla velit egestas egestas rhoncus. Integer ornare nibh tempus ipsum dignissim, vel venenatis justo eleifend. Nullam dictum aliquet dignissim. Sed at porta ante. Suspendisse sed imperdiet purus. Aliquam sed porta justo. Quisque quis porta purus. Ut tincidunt interdum interdum. In aliquet non ipsum vel luctus.
+      </p>
+  </div>
+</div>
+
+{% endblock %}
