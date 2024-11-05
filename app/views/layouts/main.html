@@ -5,7 +5,8 @@ https://prototype-kit.service.gov.uk/docs/how-to-use-layouts
 
 {% extends "govuk-prototype-kit/layouts/govuk-branded.njk" %}
 {% block header %}
-    <header class="govuk-header" data-module="govuk-header" id="previous">
+    <span id="previous" aria-hidden="true"></span>
+    <header class="govuk-header" data-module="govuk-header">
         <div class="govuk-header__container govuk-width-container">
           <div class="govuk-header__logo">
             <a href="/" class="govuk-header__link govuk-header__link--homepage">
